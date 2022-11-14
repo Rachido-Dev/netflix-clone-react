@@ -13,7 +13,6 @@ function App() {
     <div className="App">
     <AuthContextProvider>
       <header className="App-header">
-      <h1 className="text-green-700 text-6xl z-20 absolute py-40 px-40 ">1uur 33min 16sec</h1>
       <Navbar />
       
       
