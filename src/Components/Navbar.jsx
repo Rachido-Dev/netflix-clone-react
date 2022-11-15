@@ -19,7 +19,7 @@ const Navbar = () => {
   return (
     <div className='text-white nav__container flex items-center justify-between p-4 z-[100] w-full absolute'>
     <Link to='/'>
-    <h1 className='text-red-800 text-6xl font-bold font-sans cursor-pointer'>Rachidflix</h1>
+    <h1 className='text-red-800 text-3xl font-bold font-sans cursor-pointer md:text-6xl'>Rachidflix</h1>
     </Link>
       {user?.email ?(
         <div className="log__block">
